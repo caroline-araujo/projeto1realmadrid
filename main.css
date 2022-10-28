@@ -1,0 +1,142 @@
+* {
+    color: black;
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+
+header h1 {
+    color: white;
+}
+
+header h1 img {
+    width: 30px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    color: white;
+    float: right;
+}
+
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.jogos, .noticias {
+    display: flex;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section h2 {
+    padding: 5px;
+}
+
+section h3 {
+    padding: 5px;
+}
+
+section p {
+    padding: 5px;
+}
+
+#sobre img {
+    width: 850px;
+}
+
+#calendar img, #news img {
+    height: 250px;
+    margin-right: 30px;
+}
+
+#calendar p {
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .container {
+    display: block;
+    justify-content: space-between;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+    background-color: white;
+    border: none; 
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+
+form button {
+    background-color: black;
+    color: #ecf0f1; 
+    border: none; 
+    cursor: pointer;
+    padding: 12px;
+}
+
+.social-links li {
+    display:  inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.contact-methods iframe {
+    width: 370px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    padding: 16px 0;
+}
+
+footer p {
+    color: white;
+}
+
